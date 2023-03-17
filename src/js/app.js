@@ -28,32 +28,14 @@ function render(variables = {}) {
   // if includeCover==false then we reset the cover code without the <img> tag to make the cover transparent.
   let cover = `<div class="cover"><img src="${variables.background}" /></div>`;
   if (variables.includeCover == false) cover = "<div class='cover'></div>";
-
-  let name = `${variables.name}`;
   if (variables.name === null) variables.name = "Nombre";
-
-  let lastname = `${variables.lastname}`;
   if (variables.lastname === null) variables.lastname = "Apellido";
-
-  let role = `${variables.role}`;
   if (variables.role === null) variables.role = "Freelancer";
-
-  let twitter = `${variables.twitter}`;
   if (variables.twitter === null) variables.twitter = "";
-
-  let github = `${variables.github}`;
   if (variables.github === null) variables.github = "";
-
-  let linkedin = `${variables.linkedin}`;
   if (variables.linkedin === null) variables.linkedin = "";
-
-  let instagram = `${variables.instagram}`;
   if (variables.instagram === null) variables.instagram = "";
-
-  let city = `${variables.city}`;
   if (variables.city === null) variables.city = "Habitante del";
-
-  let country = `${variables.country}`;
   if (variables.country === null) variables.country = "Mundo";
 
   // reset the website body with the new html output

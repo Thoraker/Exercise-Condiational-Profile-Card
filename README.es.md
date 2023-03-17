@@ -9,7 +9,7 @@ En este ejercicio, debes crear el código HTML necesario para representar una ta
 
 1. Dentro de `src/app.js` hay una función llamada `render` que recibe un objeto `variables`.
 2. Este objeto `variables` contiene todos los valores asignados en el formulario de la aplicación (redes sociales, nombre y apellido; etc.).
-3. La función `render tiene la lógica necesaria para recibir los valores del objeto `variables` e incluirlos dentro del HTML de la página utilizando `innerHTML`.
+3. La función `render tiene la lógica necesaria para recibir los valores del objeto `variables`  e incluirlos dentro del HTML de la página utilizando  `innerHTML`.
 
 ```js
 function render(variables = {}) {
